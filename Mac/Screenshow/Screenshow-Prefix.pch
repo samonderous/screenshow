@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Screenshow' target in the 'Screenshow' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #include <Carbon/Carbon.h>
+#endif
